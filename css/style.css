@@ -1,0 +1,129 @@
+body{
+    background-image: url(../imagenes/520401-pure-black-background-wallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+*{
+    font-family: "loto";
+    color: aliceblue;
+} 
+header{
+    flex-wrap: wrap;
+    word-wrap: normal;
+}
+header nav{
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    border-style:inset;
+    border-color: rgb(255, 255, 255);
+    border-radius: 2em;
+    position:fixed;
+    top: 10;
+    display: flex;
+    justify-content:space-between
+}
+header nav ul{ 
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+header nav ul li{
+    font-size: 1.3em;
+    margin: 4.95em;
+    list-style-type: none;
+}
+header nav ul li a{
+    font-size: 1em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform:uppercase;
+    text-decoration-line:underline;
+}
+header div{
+    height: 500px;
+    background-image: url("../imagenes/wallpaperbetter2.jpg");
+    background-size: 1355px 500px;
+    background-repeat: no-repeat;
+}
+header p{
+    color: rgb(255, 255, 255);
+    text-align:center;
+}
+.descripcion{
+    margin: 5em;
+}
+article h1{
+    text-align: center ;
+}
+.titulos{
+    font-size: 2em;
+    text-decoration: underline;
+}
+.texto-consola{
+    text-align: center;
+    font-size: 1.9em;
+    width: 600px;
+    
+}
+article section{
+    display: flex;
+}
+section figure main h2{
+    text-align: center;
+}
+.titulo-duda{
+    font-size: 2em;
+    text-decoration: underline;
+}
+.textocontacto{
+    text-align:center;
+    font-size: 1.2em;
+}
+footer nav section{
+    display:inline-table
+}
+footer nav section ul{
+    justify-content:center;
+    align-items: center;
+    padding: 7.5em;
+}
+.titulo{
+    color: rgb(255, 255, 255);
+    font-size: 1.8em;
+    text-align:center;
+    text-decoration: underline;
+}
+footer nav section ul li{
+    font-size: 1.3em;
+    margin: 1em;
+    list-style-type: none;
+    text-align: center;
+
+}
+footer nav section ul li a{
+    text-decoration: none;
+}
+.joysticks{
+    text-align: end;
+}
+.textonosotros{
+    text-align: center;
+}
+article figure iframe{
+    display: flex;
+    margin:auto
+}
+main section form{
+    text-align:center;
+    border-style:hidden
+}
+main section form select{
+    color: black;
+}
+main section form select option{
+    color: black;
+}
+main section form input{
+    color: black;
+}
